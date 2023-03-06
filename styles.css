@@ -1,0 +1,90 @@
+.common{
+    background-color: rgb(173, 216, 230);
+    display: flex;
+    flex-direction: row;
+}
+
+#b31,#b32,#b1,#b2{
+    width: 50%;
+}
+
+#b1,#b2 {
+    margin: 10px;
+}
+
+#b1{
+    margin-right: 5px;
+}
+
+#b2 {
+    margin-left: 5px;
+}
+
+#b21,#b22,#b23{
+    width: 33.33%;
+    margin: 15px;
+}
+
+#b21,#b22{
+    margin-right: 7.5px;
+}
+
+#b22,#b23{
+    margin-left: 7.5px;
+}
+
+
+#b31{
+    margin: 12px;
+    margin-right: 6px;
+    border: solid 2px;
+}
+
+#b32{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+.b321{
+    width: 50%;
+    margin: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: solid 2px;
+}
+
+#b41{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#b411,.b412,#b413{
+    width: 25%;
+    margin: 12px;
+}
+
+#b411,.b412,#b413{
+    border: solid 2px;
+}
+
+#b411,.b412{
+    margin-right: 6px;
+}
+
+#b413,.b412{
+    margin-left: 6px;
+}
+
+#b42{
+    width: 100%;
+    margin: 12px;
+    margin-top: 0px;
+    border: solid 2px;
+    }
+
+#b1,#b2,#b21,#b22,#b23,#b31,.b321,#b42,#b411,.b412,#b413 {
+    background-color: rgb(128, 128, 128);
+    height: 50px;
+}
